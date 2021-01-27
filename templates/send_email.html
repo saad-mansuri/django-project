@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sending mail</title>
+</head>
+<body>
+     <form action="" method="POST">
+         {% csrf_token %}
+         <p>email
+             <input type="email" name="r_mail">
+
+         </p>
+
+         <p>Subject
+             <input type="text" name="subject">
+         </p>
+
+         <p>Message
+             <input type="text" name="msg">
+         </p>
+         <p>
+             <input type="submit" name="send msg">
+         </p>
+     </form>
+</body>
+</html>

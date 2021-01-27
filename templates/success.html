@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Form</title>
+    <link rel="icon" href="static/image/Asset36.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div>
+
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 contact-custom ">
+                <div class="project-detail">
+                    <p>Your Project is submitted Successfully</p>
+                </div>
+                <div class="my-4">
+                    <h1> <b> Check Your Mail... </b></h1>
+                </div>
+                <div class="mb-2">
+                    <h2>Your Details is Stored</h2>
+                </div>
+                <h3>We will Contact You Soon...</h3>
+                <h2> <b> Thank You </b></h2>
+                <a href="{% url 'codex_home' %}">
+                    <div class="btn btn-primary my-4 ">
+                       Lets back to Home
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>

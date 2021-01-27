@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+
+
+    <link rel="icon" href="static/image/Asset36.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://127.0.0.1:8000/static/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Navbar Section  -->
+    <nav class="navbar navbar-expand-lg bg-light topnav fixed-top">
+        <a class="navbar-brand" href="#">#codeXsite</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown"
+            aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                    <a class="nav-link btn-login" href="./">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar Section ENNNNNNNNND-->
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="user-registration">
+                        <form action="#" method="get">
+                            <h1 class="userreg-fontsize">User Registration</h1>
+                            <hr>
+                            <label><b>First Name :</b><input  type="text" name="fname" required="required"></label>
+
+                            <label><b>Middle Name :</b><input type="text" name="lname" required="required"></label>
+
+                            <label><b>Last Name :</b><input type="text" name="lname" required="required"></label>
+
+                            <label><b>Username :</b><input type="text" autocomplete="off" name="username" maxlength="20" id="UserName" required="required"></label>
+
+                            <!-- <input autocomplete="off"  data-val="true" data-val-maxlength="The field UserName must be a string or array type with a maximum length of '20'." data-val-maxlength-max="20" data-val-regex="Valid characters: Alphabets and min 3." data-val-regex-pattern="[a-zA-Z0-9]{5,30}$" data-val-required="UserName is required." id="UserName" maxlength="20" name="UserName" placeholder="Enter Username" required="required" type="text" value=""> -->
+
+                            <label><b>Password :</b><input type="password" maxlength="8" name="password" required="required"></label>
+
+                            <label><b>Email Id :</b><input type="email" name="email" required="required"></label>
+
+                            <label><b>Phone No. :</b><input type="phone" name="phone" required="required"></label>
+
+                            <label><b>Birth-date :</b><input type="date" name="birthdate" placeholder="Birth date" required="required"></label>
+
+                            <label><b>Gender :</b><input type="text" name="gender" required="required"></label>
+
+                            <!-- <input class="btn-submit-btn" type="submit"><br> -->
+                            <button class="btn-primary">Submit</button><br>
+                            <a href="./" class="pt-2"><b>Have a already Login?</b></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <section>
+        <footer>
+            <nav class="navbar bg-light justify-content-center my-footer">
+                <b><p></p>Copyright<sup>©</sup> #Recharge.<p></p></b>
+            </nav>     
+        </footer>
+    </section>
+<!-- Footer Section END-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+

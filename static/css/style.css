@@ -1,0 +1,1442 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Navigation Bar 
+===========================================================*/
+.topnav {
+    font-size: 16px;
+}
+.topnav ul.navbar-nav li a:hover, .topnav ul.navbar-nav li a:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+.topnav .navbar-brand {
+    background: rgba(28, 28, 28, 0.0);
+    color: #000;
+}
+.topnav .navbar-brand:hover, .topnav .navbar-brand:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+ul li a {
+    font-size: 18px;
+    color: #000000;
+}
+ul li a:hover {
+    color: #ffffff;
+    border-bottom: solid 1px black;
+}
+/* Navigation Bar END*/
+
+
+/* Carousel Part 
+==================================================*/
+.carousel-img {
+    height: 300px;
+    width: 1200px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.carousel-caption {
+    color: #011a55;
+    font-weight: 900;
+}
+.carousel-caption h4:hover {
+    color: #fd7e14;
+    font-weight: 900;
+}
+/* Carousel Part END */
+
+
+/* User Login Start 
+====================================================*/
+.row {
+    justify-content: center;
+    text-align: center;
+}
+.user-login {
+    margin-top: 90px;
+    padding: 70px;
+    box-shadow: #ccc 4px 4px 26px 7px;
+    border-radius: 10px;
+}
+.user-login form input {
+    height: 40px;
+    border: 0px;
+    border-bottom: 1px solid;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.body-color {
+    background-color: #ECEFF1;
+    padding-bottom: 110px;
+}
+.fontsize-userlogin {
+    font-weight: 800;
+}
+form button {
+    height: 40px;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+}
+form b {
+    padding: 10px;
+}
+
+form .contact-form input {
+    height: 50px;
+    width: 100%;
+}
+
+form .contact-form select {
+    height: 50px;
+    width: 100%;
+}
+form input:hover {
+    /* color: #000000; */
+    /* background-color: rgb(4, 121, 255); */
+    opacity: 8px;
+}
+/* END User Login */
+
+
+/* User Registration 
+=========================================================*/
+.user-registration {
+    margin: 90px 0 50px;
+    padding: 30px;
+    box-shadow: #ccc 4px 4px 26px 7px;
+    border-radius: 10px;
+}   
+
+.userreg-fontsize {
+    font-weight: 700;
+}
+
+.user-registration form input {
+    height: 40px;
+    border: 0px;
+    border-bottom: 1px solid;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.font-setting {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Index Custom Css 
+======================== NOW this is part is unnecessary*/
+
+.index-second-part {
+    padding-top: 0.5rem;
+    width: 100%;
+    height: 140px;
+    /* background-color: #011a55; */
+}
+
+.bg-second-index-part {
+    width: 101%;
+    padding-top: 20px;
+    background-color: #011a55;
+}
+
+.industry-response-4-mobile {
+    display: none;
+}
+
+.mobile-service-sec {
+    display: none
+}
+
+/* END Index Custom Css 
+======================== NOW this is part is unnecessary*/
+
+.font-size-icon {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.col-md-3 xa {
+    text-decoration: none;
+}
+
+.index-second-part a {
+    text-decoration: none;
+}
+
+._3CX4 {
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: center;
+}
+
+._3CX4 p:hover {
+    color: #fd7e14;
+    text-decoration: none;
+}
+
+._160X {
+    padding-top: 30px;
+    color: white;
+}
+
+._3thc {
+    margin-bottom: 10px;
+}
+
+.customize-slider {
+    height: 100%;
+}
+
+.service-section {
+    margin-top: 3rem;
+}
+
+/* MISSION VISION PLAN
+======================================== */
+
+.service-section-2 {
+    margin-top: 30px;
+}
+
+.inner-box {
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 1px 1px 20px 4px #ccc;
+}
+
+.fa-bullseye, .fa-calculator, .fa-low-vision {
+    /* padding-top: -100px; */
+    font-size: 50px;
+    color: #000000;
+    /* padding-bottom: 2rem; */
+    /* border: solid; */
+}
+
+.inner-box h5 {
+    padding: 1rem 0 0rem;
+    color: #000000;
+}
+
+/* .inner-box h5:hover {
+    color: #fd7e14;
+} */
+
+/* ABOUT US SECTION
+=============================================================== */
+
+.content-codex {
+    padding: 1.5rem 1.5rem;
+    box-shadow: 0px 0px 10px -2px #ccc;
+    border-radius: 10px;
+}
+
+.content-codex:hover {
+    /* padding: 1.5rem 1.5rem; */
+    box-shadow: 1px 8px 20px 3px #ccc;
+    border-radius: 10px;
+}
+
+.about-codex-title {
+    font-size: 40px;
+    line-height: 51px;
+    color: #011a55;
+    margin-top: 1rem;
+    /* border-bottom: solid 2px; */
+    margin-bottom: 27px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+/* .about-codex-title:hover {
+    color: #fd7e14;
+} */
+
+/* ABOUT US SECTION END */
+
+/* BANNER SECTION 
+=============================================================*/
+
+.img-banner {
+    width: 100%;
+    background: url(/static/image/webdev-banner.png);
+    height: 670px;
+    background-repeat: round;
+    /* opacity: ;     */
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 20%;
+    animation-name: intro-anim;
+}
+
+.intro-message h1 {
+    margin-top: -40px;
+    text-shadow: 2px 2px 8px #000;
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+    animation-name: intro-anim;
+    animation-delay: 4s;
+    animation: ex 5s 1 alternate;
+}
+
+@keyframes ex {
+    0% {
+        color: #000000;
+        font-size: 1rem;
+    }
+    25% {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 5rem;
+    }
+}
+
+@keyframes intro-anim {
+    from {
+        opacity: .5;
+        color: #000000;
+    }
+    to {
+        opacity: 1;
+        color: #ffffff;
+    }
+}
+
+.intro-message>h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    color: black;
+}
+
+/* BANNER SECTION END 
+================================================*/
+
+/* ABOUT US SEPARATE PAGE CSS 
+=================================================*/
+
+.about-codex {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.about-title {
+    padding: 0 0 2rem 0;
+    color: #011a55;
+    font: bold;
+    font-weight: 750;
+}
+
+.about-para {
+    padding-top: 0rem;
+}
+
+.about-img-png {
+    height: 250px;
+    widows: 100%;
+}
+
+.about-us-sp {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* ABOUT US SEPARATE PAGE CSS ENNNNNNNNNNNNND */
+
+/* SERVICES SECTION WEB, MOBILE-APP etc...
+=======================================================*/
+
+.operator-part {
+    box-shadow: 0 10px 20px rgba(69, 158, 255, .1);
+    border-radius: 18px;
+}
+
+.operator-part:hover {
+    box-shadow: 1px 1px 20px 4px #ccc;
+    border-radius: 18px;
+}
+
+.operator-part .fa {
+    opacity: .3px;
+    color: #000000;
+}
+
+.operator-part span {
+    color: #2F3D56;
+}
+
+.operators-title {
+    font-size: 40px;
+    line-height: 51px;
+    color: #011a55;
+    margin-top: 2rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.btn-explore{
+    height: 47px;
+    width: 163px;
+    padding: 12px;
+    background: transparent;
+    color: blue;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.btn-explore p i{
+    margin-left: 10px;
+}
+
+
+/* INDUSTRTY WE SERVE SECTION 
+===============================================*/
+
+.industri-title {
+    font-size: 40px;
+    line-height: 51px;
+    color: #011a55;
+    margin-top: 2rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.industri-serve {
+    height: 188px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 11px 2px #ccc;
+    padding: 37px 0px;
+    border-radius: 13px;
+}
+
+.industri-serve:hover {
+    background-color: #ECEFF1;
+    box-shadow: none;
+    zoom: 1;
+}
+
+.industry-response-4-desktop {
+    background-color: #ECEFF1;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.industri-serve span {
+    color: #2F3D56;
+}
+
+.font-size-icon-is {
+    font-size: 74px;
+    color: #000000;
+    /* color: #ffffff; */
+}
+
+.img-operator {
+    height: 80px;
+    width: 80px;
+}
+
+/* .fa fa-arrow-right {
+    width: 100px;
+    height: 100px;
+} */
+
+/* INDUSTRTY WE SERVE SECTION ENNNNNNNNNNNNNNNNNNNNND*/
+
+/*SEPARATE CONTACT FORM END 
+=========================================================*/
+
+.contact-header {
+    font-size: 40px;
+    line-height: 51px;
+    color: #2F3D56;
+    margin-top: 1rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.contact-form form input {
+    /* border: solid; */
+    padding: .375rem .75rem;
+    
+}
+
+/*SEPARATE CONTACT FORM END */
+
+/* COST CALCULATION SECTION FOR WEBDEVELOPMETN
+=============================================================*/
+
+.main-head-service {
+    margin: 15px 0px -28px;
+    font-size: 45px;
+}
+
+.service-sentence-sec-1 {
+    margin: 25px 0px;
+}
+
+.mobileapp-btn-services-1 {
+    background-color: transparent;
+    color: #0069D9;
+    width: 132px;
+    /* padding: 10px; */
+    margin: 5px;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+}
+.mobileapp-btn-services-2 {
+    background-color: transparent;
+    color: #0069D9;
+    width: 181px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+
+.mobileapp-btn-services-3{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+
+.mobileapp-btn-services-4{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+
+.mobileapp-btn-services-5{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    margin: 5px;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+}
+
+.softwaredev-btn-services-1 {
+    background-color: transparent;
+    color: #0069D9;
+    width: 132px;    
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+}
+
+.extra-margin{
+    margin-top: 0px;    
+}
+
+
+.webdev-btn-services-1 {
+    background-color: transparent;
+    color: #0069D9;
+    width: 132px;    
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+}
+
+.webdev-btn-services-02{
+    background-color: transparent;
+    color: #0069D9;
+    width: 202px;    
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+
+}
+.webdev-btn-services-2{
+    background-color: transparent;
+    color: #0069D9;
+    width: 135px;    
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+
+
+    /* padding: 8px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+    width: 179px;
+    margin: 5px;
+    border-radius: 7px;
+    height: 49px;
+    border: 1px solid; */
+}
+
+.webdev-btn-services-3{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+.webdev-btn-services-4{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+
+.webdev-btn-services-5{
+    padding: 8px;
+    width: 181px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+    border-radius: 7px;
+    height: 44px;
+    border: 1px solid;
+
+}
+.webdev-btn-services-6{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+.webdev-btn-services-7{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+
+.webdev-btn-services-8{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+.webdev-btn-services-9{
+    background-color: transparent;
+    color: #0069D9;
+    width: 133px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid;
+    height: 44px;
+}
+
+
+
+.app-sentence-1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.app-sentence-1 p {
+    margin-left: 20px;
+}
+
+.main-head-service b {
+    font-weight: 900;
+}
+
+.cost-section {
+    box-shadow: 3px 11px 50px rgba(91,118,148,.25);
+    height: 385px;
+    margin: 35px 0px 25px 129px;
+    width: 31%;
+    position: fixed;
+    margin-right: 0px;
+}
+
+.mobileappdev p {
+    margin: 10px 0px 20px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #0069D9;
+}
+
+.mobile-app-1 {
+    margin: 0px 30px;
+    /* font-weight: 550; */
+    font-size: 19px;
+}
+
+.mobile-app-2 {
+    font-size: 19px;
+    margin: 0px 30px;
+}
+
+/* .btn-cost-downloader {
+    width: 90%;
+    margin: 10px;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #0069D9;
+} */
+
+.mobile-app-2 {
+    margin-right: 30px;
+}
+
+.cost-cal-head h1 {
+    margin: 20px;
+    font-size: 45px;
+}
+
+.cost-cal-head h1 b {
+    font-weight: 800;
+}
+
+.cost-cal-btn-0 {
+    padding: 8px;
+    width: 133px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-btn {
+    padding: 8px;
+    width: 133px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-purpose-btn-3 {
+    padding: 8px;
+    width: 205px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-btn-4 {
+    padding: 8px;
+    width: 132px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-btn-5 {
+    padding: 8px;
+    width: 180px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-btn-6 {
+    padding: 8px;
+    width: 130px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-purpose-btn {
+    width: 179px;
+    padding: 8px;
+    margin: 10px;
+    background-color: transparent;
+    color: #0069D9;
+}
+
+.cost-cal-sentence {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+
+.web-dev-cost {
+    margin-top: 29px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 9rem;
+    height: 462px;
+    width: 81%;
+    box-shadow: 3px 3px 18px 2px #ccc;
+}
+
+.web-dev-cost h3 {
+    color: #0069D9;
+}
+
+.web-dev-cost h4 {
+    font-size: 18px;
+}
+
+.btn-cost-cal {
+    margin: 10px;
+    width: 70%;
+    padding: 5px;
+    background-color: transparent;
+    color: #0069D9;
+    font-size: 20px;
+}
+
+/* COST CALCULATION SECTION FOR WEBDEVELOPMETN ENNNNNNNNNNNNNNNNNNNNNNNNNNNND*/
+
+/* FOOTER PART */
+
+.my-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* FOOTER PART ENNNNNNNNND*/
+
+/* Media Query STARTED
+======================================*/
+
+@media only screen and (max-width: 768px) {
+    .service-section {
+        display: none;
+    }
+    .mobile-service-sec {
+        display: flex;
+        margin-top: 50px;
+        background-color: #011a55;
+    }
+    .mobile-service-sec:hover {
+        color: #fd7e14;
+    }
+    ul li a {
+        color: #000;
+        margin-left: 0px;
+    }
+    /* Slider Part */
+    .carousel-img {
+        height: 300px;
+        width: 100%;
+    }
+    /* Slider Part ENd */
+    .service-section-2 {
+        margin-top: 10px;
+    }
+    .operator-part {
+        margin-top: 2rem;
+        box-shadow: 0px 0px 11px 2px #ccc;
+    }
+    /* .navbar-nav {
+        background-color: #ffffff; */
+    /* color: #000;
+    } */
+    .about-img-png {
+        display: none;
+    }
+    .btn-services {
+        background-color: transparent;
+        color: #0069D9;
+        width: 100%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .mobileapp-btn-services-1{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .mobileapp-btn-services-2{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .mobileapp-btn-services-3{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .mobileapp-btn-services-4{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .mobileapp-btn-services-5{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .softwaredev-btn-services-1{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;
+        margin: 5px;
+    }
+    .softwaredev-platform-btn-services{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;
+        margin: 5px;
+    }
+
+    .webdev-btn-services-1{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+    .webdev-btn-services-2{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+    .webdev-btn-services-3{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+    .webdev-btn-services-4{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+    .webdev-btn-services-5{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+    .webdev-btn-services-6{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+    .webdev-btn-services-7{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .webdev-btn-services-8{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;margin: 5px;
+    }
+
+    .webdev-btn-services-9{
+        background-color: transparent;
+        color: #0069D9;
+        width: 96%;
+        /* padding: 10px;
+        margin: 5px; */
+        border-radius: 7px;
+        text-justify: none;margin: 5px;
+    }
+
+    .app-sentence-1 p{
+        text-justify: auto;
+    }
+
+    .cost-section {
+        margin: 0px;
+    }
+    /* .mobile-app-2 {
+        margin-right: 0px;
+    } */
+    .mobile-app-1 {
+        font-size: 16px;
+        margin-top: 15px;
+        
+    }
+    .mobile-app-2 {
+        font-size: 15px;
+        margin-top: -14px;
+    }
+    .cost-section {
+        margin: 12px 0px;
+        width: 100%;
+        height: 531px;
+        box-shadow: 3px 3px 18px 2px #ccc;
+        border: none;
+    }
+    .btn-cost-downloader button {
+        width: 90%;
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .mobileappdev p {
+        font-size: 22px;
+        font-weight: 900;
+        margin: 10px 0px 0px;
+    }
+
+    .web-dev-cost{
+        width: 119%;
+    /* margin-top: 29px; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* margin-left: 9rem; */
+    height: 752px;
+    /* width: 81%; */
+    box-shadow: 3px 3px 18px 2px #ccc;
+    }
+
+    .main-head-service {
+        margin: 10px 0px;
+        font-size: 32px;
+    }
+
+    .app-sentence-1 p {
+        margin-left: 0px;
+    }
+
+    .cost-cal-btn-5{
+        background-color: transparent;
+            color: #0069D9;
+            width: 96%;
+            border-radius: 7px;
+            margin: 5px;
+        }
+
+        .cost-cal-purpose-btn{
+            background-color: transparent;
+            color: #0069D9;
+            width: 96%;
+            border-radius: 7px;
+            margin: 5px;
+        }
+
+        .cost-cal-purpose-btn-3{
+            background-color: transparent;
+            color: #0069D9;
+            width: 96%;
+            border-radius: 7px;
+            margin: 5px;
+        }
+        .cost-cal-btn-4{
+            background-color: transparent;
+            color: #0069D9;
+            width: 96%;
+            border-radius: 7px;
+            margin: 5px;
+        }
+
+        .cost-cal-sentence{
+            margin: 26px 24px 8px;
+        }
+
+
+    /* .main-head-service b {
+        font-weight: 500;
+    } */
+}
+
+/* Media Query END */
+
+@media only screen and (max-width: 768px) {
+    .about-para {
+        padding-top: 2rem;
+    }
+    .content-codex {
+        margin-top: 20px;
+    }
+    .industri-serve {
+        margin-top: 2rem;
+    }
+    .intro-message {
+        padding-top: 240px;
+        padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+        font-size: 3em;
+        margin-top: revert;
+    }
+}
+
+.btn-calc.active {
+    background: #0069D9;
+}
+
+
+
+
+
+
+
+/* contact form popup css from codepen =============================== */
+  
+  .box {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #0069D9;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    border: solid 1px #000;
+    background-color: #ffffff;
+    color: #0069D9;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    /* overflow: auto; */
+  }
+  
+  .fname{
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+  }
+  .btn-contact-submit{
+    padding: 20px;
+    width: 176px;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+/* contact form popup css from codepen ENNNNNNNNNNNNNNNNNNNNNNNNNNNND=============================== */
+
+
+
+.section {
+    padding: 15px;
+    padding-left: 50px;
+  }
+.section input[type="radio"],
+.section input[type="checkbox"]{
+    display: none;
+}
+.container {
+    margin-bottom: 20px;
+}
+.container label {
+    position: relative;
+}
+  
+  /* Base styles for spans */
+.container span::before,
+.container span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+  
+  /* Radio buttons */
+.container span.radio:hover {
+    cursor: pointer;
+}
+.container span.radio::before {
+    left: -52px;
+    width: 62px;
+    height: 35px;
+    background-color: #A8AAC1;
+    border-radius: 50px;
+}
+.container span.radio::after {
+    left: -42px;
+    width: 23px;
+    height: 23px;
+    border-radius: 10px;
+    background-color: #6C788A;
+    transition: left .25s, background-color .25s;
+}
+input[type="radio"]:checked + label span.radio::after {
+    left: -27px;
+    background-color: #EBFF43;
+}
+
+  
+  /* Check-boxes */
+  .container span.checkbox::before {
+    width: 27px;
+    height: 27px;
+    background-color: #fff;
+    left: -35px;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    transition: border-color .2s;
+  }
+  .container span.checkbox:hover::before {
+    border: 3px solid #F0FF76;
+  }
+  .container span.checkbox::after {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    left: -31px;
+    top: 2px;
+    color: transparent;
+    transition: color .2s;
+  }
+  input[type="checkbox"]:checked + label span.checkbox::after {
+    color: #62AFFF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #sliderLabel {
+    border: 1px solid #a2a2a2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 25px/50px;
+    cursor: pointer;
+    display: block;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    width: 117px;
+    display: inline-block;
+  }
+  
+  #sliderLabel input {
+    display: none;
+  }
+  
+  #sliderLabel input:checked + #slider {
+    left: 0px;
+  }
+  
+  #slider {
+    left: -50px;
+    position: absolute;
+    top: 0px;
+    -webkit-transition: left .25s ease-out;
+    -moz-transition: left .25s ease-out;
+    -o-transition: left .25s ease-out;
+    -ms-transition: left .25s ease-out;
+    transition: left .25s ease-out;
+  }
+  
+  #sliderOn,
+  #sliderBlock,
+  #sliderOff {
+    display: block;
+    font-family: arial, verdana, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+  }
+  
+  #sliderOn {
+    background: #3269aa;
+    padding-top: 9px;
+    /* background: -webkit-linear-gradient(top, #3269aa 0%, #82b3f4 100%);
+    background: -moz-linear-gradient(top, #3269aa 0%, #82b3f4 100%);
+    background: -o-linear-gradient(top, #3269aa 0%, #82b3f4 100%);
+    background: -ms-linear-gradient(top, #3269aa 0%, #82b3f4 100%);
+    background: linear-gradient(top, #3269aa 0%, #82b3f4 100%); */
+    color: white;
+    left: -4px;
+    width: 60px;
+    height: 47px;
+  }
+  
+  #sliderBlock {
+    background: #d9d9d8;
+    border-left: 1px solid #a2a2a2;
+    border-right: 1px solid #a2a2a2;
+    height: 47px;
+    left: 48px;
+    width: 69px;
+  }
+  
+  #sliderOff {
+    background: #f2f3f2;
+    padding-top: 9px;
+    color: #8b8b8b;
+    left: 110px;
+    width: 60px;
+    height: 47px;
+  }
+
+
+
+
+.contact-custom{
+    /* border: 3px solid; */
+    box-shadow: 3px 13px 15px 0px #ccc;
+}
+.contact-custom, project-detail{
+    padding-top: 2rem;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.contact-custom h1{
+    font-weight: 600;
+    font-style: oblique;
+}
